@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Cadastro</title>
+	<meta charset="utf-8">
+
+	<meta name="keywords" content="programação, Python, Java, JavaScript, C++, C Sharp">
+	<meta name="description" content="A DW's Prog oferece cursos de programação para todos que tenham vontade de adentrar à essa promissora área!">
+	<meta name="author" content="Cristina Prister, Maria Eduarda Leite Spindola Leão, Maria Fernanda Scaburri e Natália Coelho">
+	<meta http-equiv="refresh" content="9999999999999999999999">
+
+	<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+	
+	<link rel="stylesheet" href="a2.css">
+	
+	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
+	
+	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+  	
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  	
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  	
+  	<meta name="keywords" content="programação, Python, Java, JavaScript, C++, C Sharp">
+	<meta name="description" content="A DW's Prog oferece cursos de programação para todos que tenham vontade de adentrar à essa promissora área!">
+	<meta name="author" content="Cristina Prister, Maria Eduarda Leite Spindola Leão, Maria Fernanda Scaburri e Natália Coelho">
+	<meta http-equiv="refresh" content="9999999999999999999999">
+
+	<script type="text/javascript">
+		  
+		  function contar(){
+		  	$(document).ready(function($){
+    		  var contar = $("#contador").length();
+      			$("#print").val(contar);
+    			}
+    		});
+	</script>
+</head>
+<body>
+	<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">&#60;&#47;DW's Prog&#62;</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li>
+          <a href="cursos.html">Cursos</a>
+        </li>
+        <li><a href="cadastro.html">Cadastro</a></li>
+        <li><a href="teste.html">Sobre nós</a></li>
+      </ul>
+     
+    </div>
+  </div>
+</nav>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<!-- particles.js container -->
+	<div id="particles-js"></div>
+
+	<div id="divquadradocinzacadastro">
+		<h2 class="texto"><b>QUER MUDAR SUA VIDA E ENTRAR DE CABEÇA NO MUNDO DA TECNOLOGIA?</b></h2>
+			<p class="texto"><strong>Preencha o formulário a seguir e inscreva-se em um de nossos cursos!</strong></p>
+<br>
+		<div class="divquadradocadastro">
+		<form action="enviado.html">
+		
+				
+				<p class="texto3">(*) Campo obrigatório</p>
+
+				<label class="texto3">* Nome Completo</label>
+<br>
+				<input class="texto2" required type="text" name="nome" placeholder="Digite aqui...">
+<br>
+				<label class="texto3">* Usuário</label>
+<br>
+				<input required class="texto2" type="text" name="usuário" placeholder="Digite aqui...">
+<br>
+				<label class="texto3">* Email</label>
+<br>
+				<input required class="texto2" type="email" name="email" placeholder="exemplo@gmail.com">
+<br>
+				<label class="texto3">Telefone</label>
+<br>
+				<input class="texto2" type="tel" name="Telefone" placeholder="Digite aqui...">
+<br>
+				<label class="texto3">Idade</label>
+<br>
+				<input type="number" name="quantity" min="1" max="120" class="texto2" style="padding: 0">
+<br>
+				<label class="texto3">Gênero</label> 
+<br> 
+				<input class="coisinhas" type="radio" name="Sexo" value="Feminino"><label class="textosexo2">Feminino</label></span>
+
+				<input class="coisinhas" type="radio" name="Sexo" value="Masculino"><label class="textosexo2">Masculino</label></span>
+<br>
+<br>
+				<label class="texto3">Cursos disponíveis</label>
+				<br> 
+				<input class="coisinhas" type="radio" name="Curso" value="Python"><label class="textosexo2">Python</label></span>
+				<br>
+				<input type="radio" class="coisinhas" name="Curso" value="JavaScript"><label class="textosexo2">JavaScript</label></span>
+				<br>
+				<input type="radio" class="coisinhas" name="Curso" value="C++"><label class="textosexo2">C++</label></span>
+				<br>
+				<input type="radio" class="coisinhas" name="Curso" value="Java"><label class="textosexo2">Java</label></span>
+				<br>
+				<input type="radio" class="coisinhas" name="Curso" value="C#"><label class="textosexo2">C Sharp</label></span>
+				<br>
+				<br>
+				<label class="texto3">* Senha</label>
+<br>
+				<input required class="texto2" type="text" name="senha" id="contar" onkeydown="contador()" placeholder="Digite aqui..." onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+<br>
+				<label class="texto3">Número de caracteres do número:</label>
+<br>
+				<input required class="texto2" type="text" name="senha" id="print" placeholder="Digite aqui...">
+			
+<br>
+			</div>
+<br>
+			<div class="divquadradocadastro">
+				<label class="texto3">Quer receber notificações quando houver atualizações?</label>
+					<select>
+						<option class="texto3" value="opção">Sim</option>
+						<option class="texto3" value="opção">Não</option>
+					</select>
+<br>
+<br>
+				<label class="texto3">Selecione quais notificações você gostaria de receber sobre nossos cursos:</label>
+<br>
+				<input class="coisinhas" type="checkbox" name="interesses" value="interesses"><label class="textosexo2">Palestras</label>
+<br>
+				<input class="coisinhas" type="checkbox" name="interesses" value="interesses"><label class="textosexo2">Novos cursos</label>
+<br>
+				<input class="coisinhas" type="checkbox" name="interesses" value="interesses" checked><label class="textosexo2">Promoções</label>
+<br>
+<br>
+				<label class="texto3">Selecione qual dia você tem maior disponibilidade para realizar as aulas:</label><input list="dias">
+					<datalist id="dias">
+					  	<option value="Segunda-feira">
+					  	<option value="Terça-feira">
+					  	<option value="Quarta-feira">
+					  	<option value="Quinta-feira">
+					  	<option value="Sexta-feira">
+					  	<option value="Sábado">
+					  	<option value="Domingo">
+					</datalist>	
+<br>
+<br>
+				<label class="texto3">Selecione cor você utilizara no Visual Studio Code </label><input type="color" name="cor">
+<br>
+<br>
+				<textarea class="coisinhas" id="texto6" placeholder="Deixe aqui alguma sugestão ou reclamação sobre nosso site..."></textarea>
+<br>
+			</div>
+<br>
+			<input class="botao" type="submit" name="submit" value="Enviar">
+			<input class="botao" type="reset" name="reset" value="Limpar">
+			<input class="botao" type="button" name="button" value="Fechar" >
+<br>
+		</form>
+<br>
+	</div>
+	<a href="#" id="subirTopo">
+		<br> subir
+		</a>
+
+		<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+	<!-- stats.js lib --> 
+	<script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+	<script type="text/javascript" src="ajs.js"></script>
+
+	 <footer style="position: fixed; bottom: 0; width: 100%;">
+		<div class="divdofooter">
+		
+			<p class="rodape"><a class="thebostinha" href="mailto:cristinapri2003@hotmail.com">Cristina Priester</a>,<a class="thebostinha" href="mailto:nataliavieira304@gmail.com"> Natália Vieira Coelho</a>,<a class="thebostinha" href="mailto:dudaleiteleao@gmail.com"> Maria Eduarda Leite Spindola Leão</a> e<a class="thebostinha" href="mailto:mariafernandascaburri@gmail.com"> Maria Fernanda Scaburri</a></p>
+			<p class="rodape">Contate-nos: +55 (47) 4002-8922</p>
+
+		</div>
+	</footer> 
+
+</body>
+</html>
